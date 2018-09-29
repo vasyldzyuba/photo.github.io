@@ -1040,7 +1040,15 @@ html {
 }
 
 @media (max-width: 576px) {
-		.arrowLeft {
+
+	.mainContainer {
+		position: fixed;
+		left: -100%;
+		z-index: 10000;
+		top: 0;
+	}
+
+	.arrowLeft {
 		position: fixed;
 		z-index: 10001;
 		left: -100%;
@@ -1051,6 +1059,7 @@ html {
 		background-size: cover;
 		background-repeat: no-repeat;
 	}
+
 	.aboutCont {
 		margin-left: 30px;
 	}
@@ -1086,7 +1095,14 @@ html {
 }
 
 @media (max-width: 480px) {
-		.arrowLeft {
+	.mainContainer {
+		position: fixed;
+		left: -100%;
+		z-index: 10000;
+		top: 0;
+	}
+
+	.arrowLeft {
 		position: fixed;
 		z-index: 10001;
 		left: -100%;
@@ -1097,6 +1113,7 @@ html {
 		background-size: cover;
 		background-repeat: no-repeat;
 	}
+
 	.cardCont {
 		width: 88%;
 		column-count: 1;
@@ -1141,7 +1158,14 @@ html {
 }
 
 @media (max-width: 411px) {
-		.arrowLeft {
+	.mainContainer {
+		position: fixed;
+		left: -100%;
+		z-index: 10000;
+		top: 0;
+	}
+
+	.arrowLeft {
 		position: fixed;
 		z-index: 10001;
 		left: -100%;
@@ -1152,6 +1176,7 @@ html {
 		background-size: cover;
 		background-repeat: no-repeat;
 	}
+
 	.titl {
 		padding-left: 13%;
 		padding-top: 2px;
@@ -1164,7 +1189,14 @@ html {
 }
 
 @media (max-width: 375px) {
-		.arrowLeft {
+	.mainContainer {
+		position: fixed;
+		left: -100%;
+		z-index: 10000;
+		top: 0;
+	}
+
+	.arrowLeft {
 		position: fixed;
 		z-index: 10001;
 		left: -100%;
@@ -1175,6 +1207,7 @@ html {
 		background-size: cover;
 		background-repeat: no-repeat;
 	}
+
 	.titl {
 		padding-left: 16%;
 		padding-top: 2px;
@@ -1203,7 +1236,14 @@ html {
 }
 
 @media (max-width: 320px) {
-		.arrowLeft {
+	.mainContainer {
+		position: fixed;
+		left: -100%;
+		z-index: 10000;
+		top: 0;
+	}
+
+	.arrowLeft {
 		position: fixed;
 		z-index: 10001;
 		left: -100%;
@@ -1214,6 +1254,7 @@ html {
 		background-size: cover;
 		background-repeat: no-repeat;
 	}
+
 	.titl {
 		padding-left: 16%;
 		padding-top: 2px;
