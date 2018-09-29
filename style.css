@@ -1040,6 +1040,17 @@ html {
 }
 
 @media (max-width: 576px) {
+		.arrowLeft {
+		position: fixed;
+		z-index: 10001;
+		left: -100%;
+		top: 43px;
+		width: 35px;
+		height: 35px;
+		background-image: url(images/arrow-left.png);
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
 	.aboutCont {
 		margin-left: 30px;
 	}
@@ -1075,6 +1086,17 @@ html {
 }
 
 @media (max-width: 480px) {
+		.arrowLeft {
+		position: fixed;
+		z-index: 10001;
+		left: -100%;
+		top: 43px;
+		width: 35px;
+		height: 35px;
+		background-image: url(images/arrow-left.png);
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
 	.cardCont {
 		width: 88%;
 		column-count: 1;
@@ -1119,6 +1141,17 @@ html {
 }
 
 @media (max-width: 411px) {
+		.arrowLeft {
+		position: fixed;
+		z-index: 10001;
+		left: -100%;
+		top: 43px;
+		width: 35px;
+		height: 35px;
+		background-image: url(images/arrow-left.png);
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
 	.titl {
 		padding-left: 13%;
 		padding-top: 2px;
@@ -1131,6 +1164,17 @@ html {
 }
 
 @media (max-width: 375px) {
+		.arrowLeft {
+		position: fixed;
+		z-index: 10001;
+		left: -100%;
+		top: 43px;
+		width: 35px;
+		height: 35px;
+		background-image: url(images/arrow-left.png);
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
 	.titl {
 		padding-left: 16%;
 		padding-top: 2px;
@@ -1159,6 +1203,17 @@ html {
 }
 
 @media (max-width: 320px) {
+		.arrowLeft {
+		position: fixed;
+		z-index: 10001;
+		left: -100%;
+		top: 43px;
+		width: 35px;
+		height: 35px;
+		background-image: url(images/arrow-left.png);
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
 	.titl {
 		padding-left: 16%;
 		padding-top: 2px;
