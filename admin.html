@@ -1,0 +1,121 @@
+<div class="container-fluid dashbord">
+			<div class="sidebar-sticky">
+				<ul class="nav flex-column">
+					<li class="nav-item">
+						<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file">
+							<path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path>
+							<polyline points="13 2 13 9 20 9"></polyline>
+						</svg>
+						<input type="button" class="btn btn-outline-secondary addImg" value="Add new photo" data-toggle="modal" data-target=".formPhoto">
+					</li>
+					<li class="nav-item">
+						<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-bar-chart-2">
+							<line x1="18" y1="20" x2="18" y2="10"></line>
+							<line x1="12" y1="20" x2="12" y2="4"></line>
+							<line x1="6" y1="20" x2="6" y2="14"></line>
+						</svg>
+						<input type="button" class="btn btn-outline-secondary addNew" value="Check messages" data-toggle="modal" data-target=".forma">
+					</li>
+				</ul>
+			</div>
+	</div>
+<div class="modal fade bd-example-modal-lg forma" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+	<div class="modal-dialog modal-lg forma">
+		<div class="modal-content">
+			<table class="table table-bordered table-dark">
+				<thead>
+					<tr>
+						<th scope="col">Name</th>
+						<th scope="col">Email</th>
+						<th scope="col">Message</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr ng-repeat='new in admin.email'>
+						<td>{{new.name}}</td>
+						<td>{{new.email}}</td>
+						<td>{{new.mes}}</td>
+						<td><input type="button" class="btn btn-danger btn-sm" ng-click='admin.removeMes($index)' value="Delete"></td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+</div>
+
+<div class="modal fade bd-example-modal-lg formPhoto" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="input-group mb-3 selectCont">
+				<div class="input-group-prepend">
+					<label class="input-group-text" for="inputGroupSelect01">Options</label>
+				</div>
+				<select class="custom-select" id="inputGroupSelect01" ng-model='admin.currentItem' ng-options='obj as obj.name for obj in admin.albumName'>
+				</select>
+			</div>
+
+			<div class="input-group mb-3">
+				<div class="input-group-prepend">
+					<span class="input-group-text">Upload</span>
+				</div>
+				<div class="custom-file">
+					<input type="file" class="custom-file-input" id="inputGroupFile01" select-ng-files ng-model="admin.currentItem.src" multiple>
+					<label class="custom-file-label" for="inputGroupFile01">Choose file</label>
+				</div>
+			</div>
+			<input type="button" class="btn btn-success btn-sm" ng-click='admin.addPhoto()' value="Save">
+			<table class="table text-center">
+				<thead>
+					<tr>
+						<th scope="col">Album name</th>
+						<th scope="col">Photo</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr ng-repeat='new in admin.album track by new.id'>
+						<td>{{new.name}}</td>
+						<td><img ng-src="../images/{{new.src}}" alt="" class="col-5 smallImg"></td>
+						<td><input type="button" class="btn btn-danger btn-sm" ng-click='admin.removePhoto($index)' value="Delete"></td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+</div>
+
+<div class="loginContainer">
+	<div class="row">
+		<div class="col-lg-3 col-md-2"></div>
+		<div class="col-lg-6 col-md-8 login-box">
+			<div class="col-lg-12 login-key">
+				<i class="fa fa-key" aria-hidden="true"></i>
+			</div>
+			<div class="col-lg-12 login-title">
+				ADMIN PANEL
+			</div>
+			<div class="col-lg-12 login-form">
+				<div class="col-lg-12 login-form">
+					<form>
+						<div class="form-group">
+							<label class="form-control-label">USERNAME</label>
+							<input type="text" class="form-control" id="log">
+						</div>
+						<div class="form-group">
+							<label class="form-control-label">PASSWORD</label>
+							<input type="password" class="form-control" id="pass">
+						</div>
+
+						<div class="col-lg-12 loginbttm">
+							<div class="col-lg-6 login-btm login-text">
+							</div>
+							<div class="col-lg-6 login-btm login-button">
+								<button type="submit" class="btn btn-outline-primary" id="btnLogin">LOGIN</button>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-2"></div>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,94 @@
+<div class="background">
+	<div class="minimenu">
+	</div>
+</div>
+<div class="arrowLeft"></div>
+<div class="obg">
+	<div class="mainContainer">
+		<div class="menuCont">
+			<div class="photoCont">
+				<div class="userPhoto"></div>
+				<span class="name">Maria Yartymets</span>
+			</div>
+			<div class="divide"></div>
+			<div class="po_r">
+				<input class="search" type="text" placeholder="Search by date"><img src="images/Forma_1.png" class="searchImg" alt="">
+			</div>
+			<div class="divide"></div>
+		</div>
+		<div class="optionCont">
+			<span class="categories">Categories</span>
+			<span class="photos">Photos</span>
+			<span class="videos photos">Videos</span>
+			<span class="categories">Albums</span>
+			<a href="#nature" class="go_to photos">Nature</a>
+			<a href="#animals" class="go_to photos">Animals</a>
+			<a href="#girls" class="go_to photos">Girls</a>
+			<a href="about.html" class="photos contact aboutMine">About me</a>
+			<a href="#contact" class="photos contact ">Contact Me</a>
+		</div>
+	</div>
+</div>
+<img src="images/uparrow.png" alt="" class="back-to-top">
+
+
+<div class="natureCont cardCont " id="nature">
+	<span class="albumName">Nature Album</span>
+	<span class="photosCount"> (5 photos)</span>
+	<div ng-repeat='new in photo.album' ng-if="new.name==='nature'" class="magnific-img">
+		<img ng-src="../images/{{new.src}}" alt="" class="imgCard lar hover-shadow cursor">
+		<i class="fa fa-search-plus" aria-hidden="true"></i>
+	</div>
+</div>
+<hr>
+
+<div class="natureCont cardCont " id="animals">
+	<span class="albumName">Animals Album</span>
+	<span class="photosCount"> (5 photos)</span>
+	<div ng-repeat='new in photo.album' ng-if="new.name==='animal'" class="magnific-img">
+		<img ng-src="../images/{{new.src}}" alt="" class="imgCard lar hideme">
+		<i class="fa fa-search-plus" aria-hidden="true"></i>
+	</div>
+</div>
+<hr>
+
+<div class="natureCont cardCont " id="girls">
+	<span class="albumName">Girls Album</span>
+	<span class="photosCount"> (11 photos)</span>
+	<div ng-repeat='new in photo.album' ng-if="new.name==='girls'" class="magnific-img">
+		<img ng-src="../images/{{new.src}}" alt="" class="imgCard lar hideme">
+		<i class="fa fa-search-plus" aria-hidden="true"></i>
+	</div>
+</div>
+<hr>
+
+<footer class="footer" id="contact">
+	<div class="container">
+		<div class="row">
+			<h5 class="text-center">Send me a message and I will conctact with you as soon as possible.</h5>
+			<div class="col-md-8">
+				<form>
+					<fieldset class="form-group">
+						<input class="form-control form-control" type="text" placeholder="Enter your name" ng-model='photo.guestName'>
+					</fieldset>
+					<fieldset class="form-group">
+						<input type="text" class="form-control" id="exampleInputEmail1" placeholder="Enter your email" ng-model='photo.guestEmail'>
+					</fieldset>
+					<fieldset class="form-group">
+						<textarea class="form-control" id="exampleMessage" placeholder="Message" ng-model='photo.guestMes'></textarea>
+					</fieldset>
+					<fieldset class="form-group text-xs-right">
+						<button type="button" class="btn btn-secondary-outline btn-md" id="btnSend" ng-click='photo.addEmail()'>Send</button>
+					</fieldset>
+				</form>
+			</div>
+			<br>
+			<div class="col-md-4 links">
+				<h5>Site made by Vasyl Dzyuba. <p>
+						All rights reserved. 2018, Lviv.</p>
+					<a href="mailto:vasyl.dzuba1@gmail.com">vasyl.dzuba1@gmail.com</a>
+				</h5>
+			</div>
+		</div>
+	</div>
+</footer>
