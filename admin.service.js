@@ -54,71 +54,86 @@ app.factory('global', function () {
         },
         {
             id: 11,
-            name: 'girls',
-            src: 'Anya1.jpg'
+            name: 'animal',
+            src: 'animal6.jpg'
         },
         {
             id: 12,
-            name: 'girls',
-            src: 'Anya2.jpg'
+            name: 'animal',
+            src: 'animal7.jpg'
         },
         {
             id: 13,
-            name: 'girls',
-            src: 'Anya3.jpg'
+            name: 'nature',
+            src: 'nature6.jpg'
         },
         {
             id: 14,
-            name: 'girls',
-            src: 'Anya4.jpg'
+            name: 'nature',
+            src: 'nature7.jpg'
         },
         {
             id: 15,
             name: 'girls',
-            src: 'Anya5.jpg'
+            src: 'Anya1.jpg'
         },
         {
             id: 16,
             name: 'girls',
-            src: 'Anya6.jpg'
+            src: 'Anya2.jpg'
         },
         {
             id: 17,
             name: 'girls',
-            src: 'Anya8.jpg'
+            src: 'Anya3.jpg'
         },
         {
             id: 18,
             name: 'girls',
-            src: 'Anya9.jpg'
+            src: 'Anya4.jpg'
         },
         {
             id: 19,
             name: 'girls',
-            src: 'Ira.jpg'
+            src: 'Anya5.jpg'
         },
         {
             id: 20,
             name: 'girls',
-            src: 'ira2.jpg'
+            src: 'Anya6.jpg'
         },
         {
             id: 21,
             name: 'girls',
-            src: 'Olya.jpg'
+            src: 'Anya8.jpg'
         },
         {
             id: 22,
-            name: 'animal',
-            src: 'nature6.jpg'
+            name: 'girls',
+            src: 'Anya9.jpg'
         },
         {
             id: 23,
-            name: 'animal',
-            src: 'nature7.jpg'
+            name: 'girls',
+            src: 'Ira.jpg'
+        },
+        {
+            id: 24,
+            name: 'girls',
+            src: 'ira2.jpg'
+        },
+        {
+            id: 25,
+            name: 'girls',
+            src: 'Olya.jpg'
+        },
+        {
+            id: 26,
+            name: 'nature',
+            src: 'nature8.jpg'
         }
 	];
-	let _photosId = 24;
+	let _photosId = 27;
 
 	return {
 		getPhoto: function () {
