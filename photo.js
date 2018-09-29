@@ -75,7 +75,7 @@ app.controller('photoCtrl', function (global, globalEmail) {
 		$('.minimenu').click(function () {
 			$('.arrowLeft').animate({
 				left: '135px',
-				top: '5px'
+				top: '43px'
 			}, 400);
 			$(this).hide();
 			$('.mainContainer').animate({
