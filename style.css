@@ -109,7 +109,7 @@
 }
 
 .categories {
-	margin: 18px 0px 18px 8px;
+	margin: 4px 0px 18px 8px;
 	width: 96px;
 	height: 12px;
 	color: #d6d5df;
@@ -130,7 +130,7 @@
 .contact {
 	height: 24px;
 	text-decoration: none;
-	margin: 12px 0px 0px 0px;
+	margin: 5px 0px 0px 0px;
 	color: #d6d5df;
 	font-family: Bree serif;
 	font-size: 17px;
