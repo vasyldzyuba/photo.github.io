@@ -131,9 +131,14 @@ app.factory('global', function () {
 			id: 26,
 			name: 'nature',
 			src: 'nature8.jpg'
+        },
+		{
+			id: 27,
+			name: 'nature',
+			src: 'nature9.jpg'
         }
 	];
-	let _photosId = 27;
+	let _photosId = 28;
 
 	return {
 		getPhoto: function () {
