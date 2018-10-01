@@ -1130,6 +1130,9 @@ html {
 	}
 }
 @media (max-width: 600px) {
+	.pat-5{
+		padding-top: 45px;
+	}
 	.titl{
 		display: block;
 		position: absolute;
@@ -1139,15 +1142,18 @@ html {
 	.titleText{
 		font-size: 19px;
 	}
-	.natureCont{
-		padding-top: 48px;
-	}
 }
 
 @media (min-width: 601px) {
+	.pat-5{
+		padding-top: 0px;
+	}
 	.titl{
 		display: none;
 
+	}
+	.pt-5{
+		padding-top: 0px!important;
 	}
 }
 
