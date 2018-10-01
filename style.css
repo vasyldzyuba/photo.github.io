@@ -807,7 +807,7 @@ html {
 		text-align: center;
 	}
 }
-@media (max-width: 1230px) {
+@media (min-width: 1230px) {
 	.titl {
 		position: fixed;
 		padding-left: 1%;
