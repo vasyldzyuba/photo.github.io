@@ -806,9 +806,18 @@ html {
 		vertical-align: middle;
 		text-align: center;
 	}
-
 }
-
+@media (max-width: 1230px) {
+	.titl {
+		position: fixed;
+		padding-left: 1%;
+		padding-top: 4px;
+		height: 40px;
+		width: 179px;
+		background-color: #272631;
+		font-size: 22px;
+	}
+}
 
 @media (max-width: 1100px) {
 	.titl {
