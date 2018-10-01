@@ -1059,7 +1059,7 @@ html {
 		background-color: #292c2f;
 		font-size: 25px;
 		letter-spacing: 2px;
-		position: relative;
+		position: fixed;
 	}
 
 	.cardCont {
