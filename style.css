@@ -73,9 +73,11 @@
 	background-color: #1e1d26;
 }
 .instIcon{
-	width: 36px;
+        width: 42px;
+        opacity: 0.8;
 }
 .instIcon:hover{
+        opacity: 1;
 	width: 45px;
 	transition: 0.2s;
 	color: #d6d5df;
