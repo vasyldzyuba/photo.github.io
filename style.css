@@ -764,7 +764,7 @@ html {
 	margin-top: 8vh;
 }
 
-@media (max-width: 1366px) {
+/* @media (max-width: 1366px) {
 	.titl {
 		position: fixed;
 		padding-left: 1%;
@@ -774,12 +774,12 @@ html {
 		background-color: #272631;
 		font-size: 22px;
 	}
-}
+} */
 
 
 @media (max-width: 1280px) {
 	
-		.titl {
+/* 		.titl {
 		position: fixed;
 		padding-left: 1%;
 		padding-top: 4px;
@@ -787,7 +787,7 @@ html {
 		width: 179px;
 		background-color: #272631;
 		font-size: 22px;
-	}
+	} */
 
 	.cardCont {
 		width: 84%;
@@ -807,7 +807,7 @@ html {
 		text-align: center;
 	}
 }
-@media (min-width: 1230px) {
+/* @media (min-width: 1230px) {
 	.titl {
 		position: fixed;
 		padding-left: 1%;
@@ -817,10 +817,10 @@ html {
 		background-color: #272631;
 		font-size: 22px;
 	}
-}
+} */
 
 @media (max-width: 1100px) {
-	.titl {
+/* 	.titl {
 		position: fixed;
 		padding-left: 1%;
 		padding-top: 4px;
@@ -828,7 +828,7 @@ html {
 		width: 179px;
 		background-color: #272631;
 		font-size: 22px;
-	}
+	} */
 
 	.cardCont {
 		width: 81%;
@@ -852,7 +852,7 @@ html {
 
 
 @media (max-width: 1024px) {
-	.titleText {
+/* 	.titleText {
 		color: white;
 		font-family: 'Fredericka the Great', cursive;
 	}
@@ -865,7 +865,7 @@ html {
 		width: 179px;
 		background-color: #272631;
 		font-size: 22px;
-	}
+	} */
 
 	.cardCont {
 		width: 80%;
@@ -950,7 +950,7 @@ html {
 
 
 @media(max-width: 768px) {
-	.titleText {
+/* 	.titleText {
 		color: white;
 		font-family: 'Fredericka the Great', cursive;
 	}
@@ -963,7 +963,7 @@ html {
 		width: 179px;
 		background-color: #272631;
 		font-size: 22px;
-	}
+	} */
 
 	.cardCont {
 		width: 75%;
