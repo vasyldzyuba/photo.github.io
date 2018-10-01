@@ -870,7 +870,7 @@ html {
 	.cardCont {
 		width: 80%;
 		column-count: 2;
-		margin-left: 18%;
+		margin-left: 19%;
 
 	}
 
@@ -968,7 +968,7 @@ html {
 	.cardCont {
 		width: 75%;
 		column-count: 2;
-		margin-left: 23.4%;
+		margin-left: 25%;
 	}
 
 	.footer {
@@ -1052,9 +1052,15 @@ html {
 	}
 
 	.titl {
-			display: none;
+		padding-left: 13%;
+		padding-top: 0px;
+		height: 40px;
+		width: 100%;
+		background-color: #292c2f;
+		font-size: 25px;
+		letter-spacing: 2px;
+		position: fixed;
 	}
-	
 
 	.cardCont {
 		width: 90%;
@@ -1066,11 +1072,6 @@ html {
 		position: fixed;
 		left: -100%;
 		z-index: 10000;
-	}
-}
-@media (max-width: 599px) {
-	.titl{
-		display: block;
 	}
 }
 
@@ -1128,17 +1129,25 @@ html {
 		margin-left: 6.5%;
 	}
 }
-/*
-@media (max-width: 599px) {
+@media (max-width: 600px) {
 	.titl{
 		display: block;
+		position: absolute;
+		top: 0;
+
+	}
+	.titleText{
+		font-size: 19px;
+	}
+	.natureCont{
+		padding-top: 48px;
 	}
 }
-*/
 
-@media (min-width: 600px) {
+@media (min-width: 601px) {
 	.titl{
 		display: none;
+
 	}
 }
 
@@ -1310,7 +1319,7 @@ html {
 		width: 100%;
 		letter-spacing: 4px;
 		background-color: #292c2f;
-		font-size: 21px;
+		font-size: 23px;
 	}
 
 	.same {
@@ -1329,7 +1338,7 @@ html {
 	.cardCont {
 		width: 85%;
 		column-count: 1;
-		margin-left: 12.3%;
+		margin-left: 13%;
 	}
 
 	.footer {
