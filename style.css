@@ -1052,14 +1052,7 @@ html {
 	}
 
 	.titl {
-		padding-left: 13%;
-		padding-top: 0px;
-		height: 40px;
-		width: 100%;
-		background-color: #292c2f;
-		font-size: 25px;
-		letter-spacing: 2px;
-		position: fixed;
+			display: none;
 	}
 	
 
@@ -1073,6 +1066,11 @@ html {
 		position: fixed;
 		left: -100%;
 		z-index: 10000;
+	}
+}
+@media (max-width: 599px) {
+	.titl{
+		display: block;
 	}
 }
 
