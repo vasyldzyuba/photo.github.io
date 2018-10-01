@@ -870,7 +870,7 @@ html {
 	.cardCont {
 		width: 80%;
 		column-count: 2;
-		margin-left: 19%;
+		margin-left: 18%;
 
 	}
 
@@ -968,7 +968,7 @@ html {
 	.cardCont {
 		width: 75%;
 		column-count: 2;
-		margin-left: 25%;
+		margin-left: 23.4%;
 	}
 
 	.footer {
@@ -1061,6 +1061,7 @@ html {
 		letter-spacing: 2px;
 		position: fixed;
 	}
+	
 
 	.cardCont {
 		width: 90%;
@@ -1127,6 +1128,19 @@ html {
 		width: 92%;
 		column-count: 2;
 		margin-left: 6.5%;
+	}
+}
+/*
+@media (max-width: 599px) {
+	.titl{
+		display: block;
+	}
+}
+*/
+
+@media (min-width: 600px) {
+	.titl{
+		display: none;
 	}
 }
 
@@ -1298,7 +1312,7 @@ html {
 		width: 100%;
 		letter-spacing: 4px;
 		background-color: #292c2f;
-		font-size: 23px;
+		font-size: 21px;
 	}
 
 	.same {
@@ -1317,7 +1331,7 @@ html {
 	.cardCont {
 		width: 85%;
 		column-count: 1;
-		margin-left: 13%;
+		margin-left: 12.3%;
 	}
 
 	.footer {
@@ -1335,3 +1349,5 @@ html {
 		font-size: 20px;
 	}
 }
+
+
