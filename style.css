@@ -981,6 +981,15 @@ html {
 	}
 
 }
+@media(max-width:720px){
+	.footer {
+    position: relative;
+    width: 100%;
+    padding-left: 20px;
+    height: 46vh;
+    margin: 0px !important;
+}
+}
 
 @media(max-width:650px) {
 	.cardCont {
