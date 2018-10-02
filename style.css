@@ -777,7 +777,7 @@ a {
 } */
 
 
-@media (max-width: 1280px) {
+@media only screen and (max-width: 1280px) {
 	
 /* 		.titl {
 		position: fixed;
@@ -819,7 +819,7 @@ a {
 	}
 } */
 
-@media (max-width: 1100px) {
+@media only screen and (max-width: 1100px) {
 /* 	.titl {
 		position: fixed;
 		padding-left: 1%;
@@ -849,9 +849,17 @@ a {
 		text-align: center;
 	}
 }
+@media only screen and (max-width: 1080px) {
+.footer {
+    padding-left: 20px;
+    width: 83.5%;
+    margin-left: 180px;
+    height: 61vh;
+ }
+}
 
 
-@media (max-width: 1024px) {
+@media only screen and (max-width: 1024px) {
 /* 	.titleText {
 		color: white;
 		font-family: 'Fredericka the Great', cursive;
@@ -884,7 +892,7 @@ a {
 	}
 }
 
-@media (max-width: 976px) {
+@media only screen and (max-width: 976px) {
 	/*
 	.titl {
 		position: fixed;
@@ -912,7 +920,7 @@ a {
 	}
 }
 
-@media (max-width: 870px) {
+@media only screen and (max-width: 870px) {
 	.cardCont {
 		width: 78%;
 		column-count: 2;
@@ -920,7 +928,7 @@ a {
 	}
 }
 
-@media (max-width: 850px) {
+@media only screen and (max-width: 850px) {
 	/*
 	.titl {
 		position: fixed;
@@ -949,7 +957,7 @@ a {
 }
 
 
-@media(max-width: 768px) {
+@media only screen and (max-width: 768px) {
 /* 	.titleText {
 		color: white;
 		font-family: 'Fredericka the Great', cursive;
@@ -981,7 +989,7 @@ a {
 	}
 
 }
-@media(max-width:720px){
+@media only screen and (max-width:720px){
 	.footer {
     position: relative;
     width: 100%;
@@ -991,7 +999,7 @@ a {
 }
 }
 
-@media(max-width:650px) {
+@media only screen and (max-width:650px) {
 	.cardCont {
 		width: 70%;
 		column-count: 2;
@@ -999,7 +1007,7 @@ a {
 	}
 }
 
-@media (max-width: 34em) {
+@media only screen and (max-width: 34em) {
 	body {
 		margin-bottom: 500px;
 	}
@@ -1009,7 +1017,7 @@ a {
 	}
 }
 
-@media (max-width: 600px) {
+@media only screen and (max-width: 600px) {
 	.arrowLeft {
 		position: fixed;
 		z-index: 10001;
@@ -1084,7 +1092,7 @@ a {
 	}
 }
 
-@media (max-width: 576px) {
+@media only screen and (max-width: 576px) {
 
 	.mainContainer {
 		position: fixed;
@@ -1138,7 +1146,7 @@ a {
 		margin-left: 6.5%;
 	}
 }
-@media (max-width: 600px) {
+@media only screen and (max-width: 600px) {
 	.pat-5{
 		padding-top: 45px;
 	}
@@ -1153,7 +1161,7 @@ a {
 	}
 }
 
-@media (min-width: 601px) {
+@media only screen and (min-width: 601px) {
 	.pat-5{
 		padding-top: 0px;
 	}
@@ -1166,7 +1174,7 @@ a {
 	}
 }
 
-@media (max-width: 480px) {
+@media only screen and (max-width: 480px) {
 	.mainContainer {
 		position: fixed;
 		left: -100%;
@@ -1229,7 +1237,7 @@ a {
 	}
 }
 
-@media (max-width: 411px) {
+@media only screen and (max-width: 411px) {
 	.mainContainer {
 		position: fixed;
 		left: -100%;
@@ -1260,7 +1268,7 @@ a {
 	}
 }
 
-@media (max-width: 375px) {
+@media only screen and (max-width: 375px) {
 	.mainContainer {
 		position: fixed;
 		left: -100%;
@@ -1307,7 +1315,7 @@ a {
 
 }
 
-@media (max-width: 320px) {
+@media only screen and (max-width: 320px) {
 	.mainContainer {
 		position: fixed;
 		left: -100%;
