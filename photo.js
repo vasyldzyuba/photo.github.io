@@ -17,18 +17,18 @@ app.controller('photoCtrl', function (global, globalEmail) {
 	}
 
 	$(function () {
-		$(".hideme").click(function () {
-			let img = $(this);
-			let src = img.attr('src');
-			$("body").append("<div class='popup'>" + "<div class='popup_bg'></div>" + "<img src='" + src + "' class='popup_img'/>" + "</div>");
-			$(".popup").fadeIn(600);
-			$(".popup_bg").click(function () {
-				$(".popup").fadeOut(600);
-				setTimeout(function () {
-					$(".popup").remove();
-				}, 600);
-			});
-		})
+//		$(".hideme").click(function () {
+//			let img = $(this);
+//			let src = img.attr('src');
+//			$("body").append("<div class='popup'>" + "<div class='popup_bg'></div>" + "<img src='" + src + "' class='popup_img'/>" + "</div>");
+//			$(".popup").fadeIn(600);
+//			$(".popup_bg").click(function () {
+//				$(".popup").fadeOut(600);
+//				setTimeout(function () {
+//					$(".popup").remove();
+//				}, 600);
+//			});
+//		})
 
 		$('.go_to').click(function () {
 			var scroll_el = $(this).attr('href');
