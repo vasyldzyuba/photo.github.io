@@ -17,18 +17,20 @@ app.controller('photoCtrl', function (global, globalEmail) {
 	}
 
 	$(function () {
-//		$(".hideme").click(function () {
-//			let img = $(this);
-//			let src = img.attr('src');
-//			$("body").append("<div class='popup'>" + "<div class='popup_bg'></div>" + "<img src='" + src + "' class='popup_img'/>" + "</div>");
-//			$(".popup").fadeIn(600);
-//			$(".popup_bg").click(function () {
-//				$(".popup").fadeOut(600);
-//				setTimeout(function () {
-//					$(".popup").remove();
-//				}, 600);
-//			});
-//		})
+		$(".imgCard").click(function () {
+			let img = $(this);
+			let src = img.attr('src');
+			$("body").append("<div class='popup'>" + "<div class='popup_bg'></div>" + "<img src='" + src + "' class='popup_img'/>" + "</div>");
+			$(".popup").fadeIn(600);
+			$('body').css('overflow', 'hidden');
+			$(".popup_bg").click(function () {
+				$(".popup").fadeOut(600);
+				setTimeout(function () {
+					$(".popup").remove();
+				}, 600);
+				$('body').css('overflow','auto'); 
+			});
+		})
 
 		$('.go_to').click(function () {
 			var scroll_el = $(this).attr('href');
@@ -63,6 +65,7 @@ app.controller('photoCtrl', function (global, globalEmail) {
 			});
 		});
 		$('.arrowLeft').click(function () {
+			$('body').css('overflow', 'scroll');
 			$('.mainContainer').animate({
 				left: '-100%'
 			});
@@ -73,6 +76,7 @@ app.controller('photoCtrl', function (global, globalEmail) {
 		})
 
 		$('.minimenu').click(function () {
+			$('body').css('overflow', 'hidden');
 			$('.arrowLeft').animate({
 				left: '135px',
 				top: '8px'
@@ -84,4 +88,3 @@ app.controller('photoCtrl', function (global, globalEmail) {
 		})
 	})
 });
-
