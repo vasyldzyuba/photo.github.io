@@ -77,6 +77,7 @@ app.controller('photoCtrl', function (global, globalEmail) {
 
 		$('.minimenu').click(function () {
 			$('body').css('overflow', 'hidden');
+			$(this).css('overflow-y', 'scroll');
 			$('.arrowLeft').animate({
 				left: '135px',
 				top: '8px'
