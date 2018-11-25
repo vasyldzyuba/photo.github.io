@@ -820,6 +820,9 @@ a {
 		vertical-align: middle;
 		text-align: center;
 	}
+		body{
+		overflow-x: hidden;
+	}
 }
 
 /* @media (min-width: 1230px) {
@@ -863,6 +866,9 @@ a {
 		vertical-align: middle;
 		text-align: center;
 	}
+		body{
+		overflow-x: hidden;
+	}
 }
 
 @media only screen and (max-width: 1080px) {
@@ -871,6 +877,9 @@ a {
 		width: 83.2%;
 		margin-left: 180px;
 		height: 61vh;
+	}
+		body{
+		overflow-x: hidden;
 	}
 }
 
@@ -906,6 +915,9 @@ a {
 		height: 25vh;
 		margin-left: 0;
 	}
+		body{
+		overflow-x: hidden;
+	}
 }
 
 @media only screen and (max-width: 976px) {
@@ -934,6 +946,9 @@ a {
 		margin-left: 180px;
 		height: 59vh;
 	}
+		body{
+		overflow-x: hidden;
+	}
 }
 
 @media only screen and (max-width: 870px) {
@@ -941,6 +956,9 @@ a {
 		width: 78%;
 		column-count: 2;
 		margin-left: 21%;
+	}
+		body{
+		overflow-x: hidden;
 	}
 }
 
@@ -969,6 +987,9 @@ a {
 		list-style: none;
 		text-decoration: none;
 		font-size: 16px;
+	}
+		body{
+		overflow-x: hidden;
 	}
 }
 
@@ -1003,6 +1024,9 @@ a {
 		padding-left: 20px;
 		height: 34vh;
 	}
+		body{
+		overflow-x: hidden;
+	}
 
 }
 
@@ -1014,6 +1038,9 @@ a {
 		height: 46vh;
 		margin: 0px !important;
 	}
+		body{
+		overflow-x: hidden;
+	}
 }
 
 @media only screen and (max-width:650px) {
@@ -1022,16 +1049,21 @@ a {
 		column-count: 2;
 		margin-left: 28%;
 	}
+		body{
+		overflow-x: hidden;
+	}
 }
 
 @media only screen and (max-width: 34em) {
 	body {
 		margin-bottom: 500px;
+		overflow-x: hidden;
 	}
 
 	.footer {
 		height: 500px;
 	}
+	
 }
 
 @media only screen and (max-width: 600px) {
@@ -1107,6 +1139,9 @@ a {
 		left: -100%;
 		z-index: 10000;
 	}
+		body{
+		overflow-x: hidden;
+	}
 }
 
 @media only screen and (max-width: 576px) {
@@ -1162,6 +1197,9 @@ a {
 		column-count: 2;
 		margin-left: 6.5%;
 	}
+		body{
+		overflow-x: hidden;
+	}
 }
 
 @media only screen and (max-width: 600px) {
@@ -1179,6 +1217,9 @@ a {
 	.titleText {
 		font-size: 19px;
 	}
+		body{
+		overflow-x: hidden;
+	}
 }
 
 @media only screen and (min-width: 601px) {
@@ -1193,6 +1234,9 @@ a {
 
 	.pt-5 {
 		padding-top: 0px !important;
+	}
+		body{
+		overflow-x: hidden;
 	}
 }
 
@@ -1257,6 +1301,9 @@ a {
 		position: absolute;
 		z-index: 1;
 	}
+		body{
+		overflow-x: hidden;
+	}
 }
 
 @media only screen and (max-width: 411px) {
@@ -1288,9 +1335,15 @@ a {
 		background-color: #292c2f;
 		font-size: 23px;
 	}
+		body{
+		overflow-x: hidden;
+	}
 }
 
 @media only screen and (max-width: 375px) {
+	body{
+		overflow-x: hidden;
+	}
 	.mainContainer {
 		position: fixed;
 		left: -100%;
