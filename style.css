@@ -9,6 +9,7 @@
 }
 
 .bg {
+	overflow-x: hidden;
 	background-color: #444444;
 }
 
@@ -34,7 +35,7 @@
 .photoCont {
 	text-align: center;
 	width: 180px;
-	height: 221px;
+	height: 190px;
 	background-color: #272631;
 	display: flex;
 	flex-direction: column;
@@ -812,7 +813,7 @@ a {
 	.footer {
 		width: 85.3%;
 		margin-left: 180px;
-		height: 66vh;
+		height: 80vh;
 	}
 
 	.footer .container .row .links {
@@ -820,7 +821,8 @@ a {
 		vertical-align: middle;
 		text-align: center;
 	}
-		body{
+
+	body {
 		overflow-x: hidden;
 	}
 }
@@ -858,7 +860,7 @@ a {
 		padding-left: 20px;
 		width: 83.5%;
 		margin-left: 180px;
-		height: 40vh;
+		height: 60vh;
 	}
 
 	.footer .container .row .links {
@@ -866,7 +868,8 @@ a {
 		vertical-align: middle;
 		text-align: center;
 	}
-		body{
+
+	body {
 		overflow-x: hidden;
 	}
 }
@@ -876,9 +879,10 @@ a {
 		padding-left: 20px;
 		width: 83.2%;
 		margin-left: 180px;
-		height: 61vh;
+		height: 80vh;
 	}
-		body{
+
+	body {
 		overflow-x: hidden;
 	}
 }
@@ -912,10 +916,11 @@ a {
 		padding-left: 20px;
 		width: 100%;
 		margin-left: 180px;
-		height: 25vh;
+		height: 50vh;
 		margin-left: 0;
 	}
-		body{
+
+	body {
 		overflow-x: hidden;
 	}
 }
@@ -937,16 +942,17 @@ a {
 	.footer {
 		width: 81.5%;
 		margin-left: 180px;
-		height: 59vh;
+		height: 80vh;
 	}
 
 	.footer {
 		padding-left: 20px;
 		width: 79.2%;
 		margin-left: 180px;
-		height: 59vh;
+		height: 80vh;
 	}
-		body{
+
+	body {
 		overflow-x: hidden;
 	}
 }
@@ -957,7 +963,8 @@ a {
 		column-count: 2;
 		margin-left: 21%;
 	}
-		body{
+
+	body {
 		overflow-x: hidden;
 	}
 }
@@ -979,7 +986,7 @@ a {
 	.footer {
 		width: 78.8%;
 		margin-left: 180px;
-		height: 59vh;
+		height: 80vh;
 		padding-left: 20px;
 	}
 
@@ -988,7 +995,8 @@ a {
 		text-decoration: none;
 		font-size: 16px;
 	}
-		body{
+
+	body {
 		overflow-x: hidden;
 	}
 }
@@ -1022,9 +1030,10 @@ a {
 		width: 100%;
 		margin-left: 172px;
 		padding-left: 20px;
-		height: 34vh;
+		height: 80vh;
 	}
-		body{
+
+	body {
 		overflow-x: hidden;
 	}
 
@@ -1038,7 +1047,8 @@ a {
 		height: 46vh;
 		margin: 0px !important;
 	}
-		body{
+
+	body {
 		overflow-x: hidden;
 	}
 }
@@ -1049,7 +1059,8 @@ a {
 		column-count: 2;
 		margin-left: 28%;
 	}
-		body{
+
+	body {
 		overflow-x: hidden;
 	}
 }
@@ -1061,9 +1072,9 @@ a {
 	}
 
 	.footer {
-		height: 500px;
+		height: 100vh;
 	}
-	
+
 }
 
 @media only screen and (max-width: 600px) {
@@ -1090,7 +1101,7 @@ a {
 		width: 93.5%;
 		margin-left: 40px;
 		padding-left: 20px;
-		height: 59vh;
+		height: 80vh;
 	}
 
 	.background {
@@ -1100,6 +1111,15 @@ a {
 		width: 40px;
 		height: 107vh;
 	}
+
+	/*
+	.obg{
+		width: 100%;
+		height: 1000px;
+		background: rgba(0, 0, 0, 0.2);
+		display: none;
+	}
+*/
 
 	.minimenu {
 		float: left;
@@ -1139,7 +1159,8 @@ a {
 		left: -100%;
 		z-index: 10000;
 	}
-		body{
+
+	body {
 		overflow-x: hidden;
 	}
 }
@@ -1173,7 +1194,7 @@ a {
 		width: 93%;
 		margin-left: 40px;
 		padding-left: 20px;
-		height: 59vh;
+		height: 80vh;
 	}
 
 	.footer .container .row .links {
@@ -1197,7 +1218,8 @@ a {
 		column-count: 2;
 		margin-left: 6.5%;
 	}
-		body{
+
+	body {
 		overflow-x: hidden;
 	}
 }
@@ -1217,7 +1239,8 @@ a {
 	.titleText {
 		font-size: 19px;
 	}
-		body{
+
+	body {
 		overflow-x: hidden;
 	}
 }
@@ -1235,7 +1258,8 @@ a {
 	.pt-5 {
 		padding-top: 0px !important;
 	}
-		body{
+
+	body {
 		overflow-x: hidden;
 	}
 }
@@ -1271,7 +1295,7 @@ a {
 		width: 100%;
 		margin-left: 40px;
 		padding-left: 38px;
-		height: 70vh;
+		height: 90vh;
 	}
 
 	.arrowBack {
@@ -1301,7 +1325,8 @@ a {
 		position: absolute;
 		z-index: 1;
 	}
-		body{
+
+	body {
 		overflow-x: hidden;
 	}
 }
@@ -1335,15 +1360,17 @@ a {
 		background-color: #292c2f;
 		font-size: 23px;
 	}
-		body{
+
+	body {
 		overflow-x: hidden;
 	}
 }
 
 @media only screen and (max-width: 375px) {
-	body{
+	body {
 		overflow-x: hidden;
 	}
+
 	.mainContainer {
 		position: fixed;
 		left: -100%;
@@ -1376,7 +1403,7 @@ a {
 	.footer {
 		width: 100%;
 		margin-left: 40px;
-		height: 77vh;
+		height: 90vh;
 	}
 
 	.footer .container .row .links {
