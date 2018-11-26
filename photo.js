@@ -28,7 +28,7 @@ app.controller('photoCtrl', function (global, globalEmail) {
 				setTimeout(function () {
 					$(".popup").remove();
 				}, 600);
-				$('body').css('overflow','auto'); 
+				$('body').css('overflow', 'auto');
 			});
 		})
 
@@ -76,9 +76,18 @@ app.controller('photoCtrl', function (global, globalEmail) {
 				left: '-100%'
 			});
 		})
-		
+		$('.contact').click(function () {
+			$('body').css('overflow', 'scroll');
+		});
+		$('#nature').click(function () {
+			$('body').css('overflow', 'scroll');
+		});
+		$('#animals').click(function () {
+			$('body').css('overflow', 'scroll');
+		});
+
 		$('.minimenu').click(function () {
-//			$('.obg').css('display', 'block');
+			//			$('.obg').css('display', 'block');
 			$('.titl').css('background-color', '#272631');
 			$('body').css('overflow', 'hidden');
 			$('.arrowLeft').animate({
