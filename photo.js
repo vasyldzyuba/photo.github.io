@@ -78,15 +78,10 @@ app.controller('photoCtrl', function (global, globalEmail) {
 		$('.contact').click(function () {
 			$('body').css('overflow', 'scroll');
 		});
-		$('#nature').click(function () {
+		$('.cardCont').click(function () {
 			$('body').css('overflow', 'scroll');
 		});
-		$('#animals').click(function () {
-			$('body').css('overflow', 'scroll');
-		});
-		$('#girls').click(function () {
-			$('body').css('overflow', 'scroll');
-		});
+		
 
 		$('.minimenu').click(function () {
 			//			$('.obg').css('display', 'block');
