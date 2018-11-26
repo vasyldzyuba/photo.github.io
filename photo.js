@@ -65,7 +65,8 @@ app.controller('photoCtrl', function (global, globalEmail) {
 			});
 		});
 		$('.arrowLeft').click(function () {
-			$('.mainContainer').css('overflow-y', 'hidden');
+			$('.obg').css('display', 'none');
+			$('.titl').css('background-color', '#292c2f');
 			$('body').css('overflow', 'scroll');
 			$('.mainContainer').animate({
 				left: '-100%'
@@ -77,7 +78,8 @@ app.controller('photoCtrl', function (global, globalEmail) {
 		})
 		
 		$('.minimenu').click(function () {
-			$('.mainContainer').css('overflow-y', 'scroll');
+//			$('.obg').css('display', 'block');
+			$('.titl').css('background-color', '#272631');
 			$('body').css('overflow', 'hidden');
 			$('.arrowLeft').animate({
 				left: '135px',
