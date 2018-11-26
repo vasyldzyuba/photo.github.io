@@ -84,6 +84,9 @@ app.controller('photoCtrl', function (global, globalEmail) {
 		$('#animals').click(function () {
 			$('body').css('overflow', 'scroll');
 		});
+		$('#girls').click(function () {
+			$('body').css('overflow', 'scroll');
+		});
 
 		$('.minimenu').click(function () {
 			//			$('.obg').css('display', 'block');
