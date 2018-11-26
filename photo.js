@@ -65,6 +65,7 @@ app.controller('photoCtrl', function (global, globalEmail) {
 			});
 		});
 		$('.arrowLeft').click(function () {
+			$('.mainContainer').css('overflow-y', 'hidden');
 			$('body').css('overflow', 'scroll');
 			$('.mainContainer').animate({
 				left: '-100%'
@@ -74,10 +75,10 @@ app.controller('photoCtrl', function (global, globalEmail) {
 				left: '-100%'
 			});
 		})
-
+		
 		$('.minimenu').click(function () {
+			$('.mainContainer').css('overflow-y', 'scroll');
 			$('body').css('overflow', 'hidden');
-			$(this).css('overflow-y', 'scroll');
 			$('.arrowLeft').animate({
 				left: '135px',
 				top: '8px'
