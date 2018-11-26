@@ -65,7 +65,6 @@ app.controller('photoCtrl', function (global, globalEmail) {
 			});
 		});
 		$('.arrowLeft').click(function () {
-			$('.obg').css('display', 'none');
 			$('.titl').css('background-color', '#292c2f');
 			$('body').css('overflow', 'scroll');
 			$('.mainContainer').animate({
