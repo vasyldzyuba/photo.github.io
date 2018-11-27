@@ -813,7 +813,7 @@ a {
 	.footer {
 		width: 85.3%;
 		margin-left: 180px;
-		height: 80vh;
+		height: 100vh;
 	}
 
 	.footer .container .row .links {
@@ -860,7 +860,7 @@ a {
 		padding-left: 20px;
 		width: 83.5%;
 		margin-left: 180px;
-		height: 60vh;
+		height: 100vh;
 	}
 
 	.footer .container .row .links {
@@ -879,7 +879,7 @@ a {
 		padding-left: 20px;
 		width: 83.2%;
 		margin-left: 180px;
-		height: 80vh;
+		height: 100vh;
 	}
 
 	body {
@@ -916,7 +916,7 @@ a {
 		padding-left: 20px;
 		width: 100%;
 		margin-left: 180px;
-		height: 50vh;
+		height: 100vh;
 		margin-left: 0;
 	}
 
@@ -942,14 +942,14 @@ a {
 	.footer {
 		width: 81.5%;
 		margin-left: 180px;
-		height: 80vh;
+		height: 100vh;
 	}
 
 	.footer {
 		padding-left: 20px;
 		width: 79.2%;
 		margin-left: 180px;
-		height: 80vh;
+		height: 100vh;
 	}
 
 	body {
@@ -986,7 +986,7 @@ a {
 	.footer {
 		width: 78.8%;
 		margin-left: 180px;
-		height: 80vh;
+		height: 100vh;
 		padding-left: 20px;
 	}
 
@@ -1030,7 +1030,7 @@ a {
 		width: 100%;
 		margin-left: 172px;
 		padding-left: 20px;
-		height: 80vh;
+		height: 100vh;
 	}
 
 	body {
@@ -1044,7 +1044,7 @@ a {
 		position: relative;
 		width: 100%;
 		padding-left: 20px;
-		height: 46vh;
+		height: 100vh;
 		margin: 0px !important;
 	}
 
@@ -1101,7 +1101,7 @@ a {
 		width: 93.5%;
 		margin-left: 40px;
 		padding-left: 20px;
-		height: 80vh;
+		height: 100vh;
 	}
 
 	.background {
@@ -1109,7 +1109,7 @@ a {
 		position: fixed;
 		background-color: #292c2f;
 		width: 40px;
-		height: 107vh;
+		height: 100vh;
 	}
 
 	/*
@@ -1194,7 +1194,7 @@ a {
 		width: 93%;
 		margin-left: 40px;
 		padding-left: 20px;
-		height: 80vh;
+		height: 100vh;
 	}
 
 	.footer .container .row .links {
@@ -1295,7 +1295,7 @@ a {
 		width: 100%;
 		margin-left: 40px;
 		padding-left: 38px;
-		height: 90vh;
+		height: 100vh;
 	}
 
 	.arrowBack {
