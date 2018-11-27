@@ -33,6 +33,7 @@ app.controller('photoCtrl', function (global, globalEmail) {
 		})
 
 		$('.go_to').click(function () {
+			$('body').css('overflow', 'scroll');
 			var scroll_el = $(this).attr('href');
 			if ($(scroll_el).length != 0) {
 				$('html, body').animate({
@@ -78,10 +79,8 @@ app.controller('photoCtrl', function (global, globalEmail) {
 		$('.contact').click(function () {
 			$('body').css('overflow', 'scroll');
 		});
-		$('.cardCont').click(function () {
-			$('body').css('overflow', 'scroll');
-		});
-		
+
+
 
 		$('.minimenu').click(function () {
 			//			$('.obg').css('display', 'block');
