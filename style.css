@@ -322,12 +322,11 @@ leftSide {
 	width: 100%;
 }
 
-/*
+
 body.popup_img {
 	overflow-y: hidden;
 	position: fixed;
 }
-*/
 
 .popup_img {
 	float: left;
@@ -532,6 +531,7 @@ footer .form-control {
 	width: 60px;
 	display: none;
 }
+
 
 .back-to-top:hover {
 	cursor: pointer;

@@ -28,18 +28,18 @@ app.controller('photoCtrl', function (global, globalEmail) {
 			let src = img.attr('src');
 			$("body").append("<div class='popup'>" + "<div class='popup_bg'></div>" + "<img src='" + src + "' class='popup_img'/>" + "</div>");
 			$(".popup").fadeIn(600);
-//			$('body').css('overflow', 'hidden');
+			//			$('body').css('overflow', 'hidden');
 			$(".popup_bg").click(function () {
 				$(".popup").fadeOut(600);
 				setTimeout(function () {
 					$(".popup").remove();
 				}, 600);
-//				$('body').css('overflow', 'auto');
+				//				$('body').css('overflow', 'auto');
 			});
 		})
 
 		$('.go_to').click(function () {
-//			$('body').css('overflow', 'scroll');
+			//			$('body').css('overflow', 'scroll');
 			var scroll_el = $(this).attr('href');
 			if ($(scroll_el).length != 0) {
 				$('html, body').animate({
@@ -73,7 +73,7 @@ app.controller('photoCtrl', function (global, globalEmail) {
 		});
 		$('.arrowLeft').click(function () {
 			$('.titl').css('background-color', '#292c2f');
-//			$('body').css('overflow', 'scroll');
+			//			$('body').css('overflow', 'scroll');
 			$('.mainContainer').animate({
 				left: '-100%'
 			});
@@ -83,7 +83,7 @@ app.controller('photoCtrl', function (global, globalEmail) {
 			});
 		})
 		$('.contact').click(function () {
-//			$('body').css('overflow', 'scroll');
+			//			$('body').css('overflow', 'scroll');
 		});
 
 
@@ -91,7 +91,7 @@ app.controller('photoCtrl', function (global, globalEmail) {
 		$('.minimenu').click(function () {
 			//			$('.obg').css('display', 'block');
 			$('.titl').css('background-color', '#272631');
-//			$('body').css('overflow', 'hidden');
+//						$('body').css('overflow', 'hidden');
 			$('.arrowLeft').animate({
 				left: '135px',
 				top: '8px'
