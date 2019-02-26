@@ -343,7 +343,7 @@ body.popup_img {
 	position: fixed;
 	top: 13px;
 	z-index: 100;
-	right: 5px;
+	right: 2px;
 	width: 55px;
 }
 
