@@ -34,7 +34,7 @@
 
 <div class="pat-5"></div>
 <div class="natureCont cardCont " id="nature">
-	<span class="albumName">Nature Album</span>
+	<span class="albumName">Nature Album</span><br>
 	<span class="photosCount"> (5 photos)</span>
 	<div ng-repeat='new in photo.album' ng-if="new.name==='nature'" class="magnific-img">
 		<img ng-src="../images/{{new.src}}" alt="" class="imgCard lar hover-shadow cursor">
@@ -44,7 +44,7 @@
 <hr>
 
 <div class="natureCont cardCont " id="animals">
-	<span class="albumName">Animals Album</span>
+	<span class="albumName">Animals Album</span><br>
 	<span class="photosCount"> (5 photos)</span>
 	<div ng-repeat='new in photo.album' ng-if="new.name==='animal'" class="magnific-img">
 		<img ng-src="../images/{{new.src}}" alt="" class="imgCard lar hideme">
@@ -54,7 +54,7 @@
 <hr>
 
 <div class="natureCont cardCont " id="girls">
-	<span class="albumName">Girls Album</span>
+	<span class="albumName">Girls Album</span><br>
 	<span class="photosCount"> (11 photos)</span>
 	<div ng-repeat='new in photo.album' ng-if="new.name==='girls'" class="magnific-img">
 		<img ng-src="../images/{{new.src}}" alt="" class="imgCard lar hideme">

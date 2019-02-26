@@ -207,7 +207,7 @@
 	font-family: Slabo;
 	color: #d6d5df;
 	font-size: 20px;
-	margin-left: 10px;
+	/*	margin-left: 10px;*/
 }
 
 .photosCount {
@@ -341,9 +341,9 @@ body.popup_img {
 
 .xIcon {
 	position: fixed;
-	top: 12px;
+	top: 1px;
 	z-index: 100;
-	right: 1px;
+	right: 0;
 	width: 55px;
 }
 
@@ -933,12 +933,13 @@ a {
 	} */
 
 	.cardCont {
-		width: 80%;
+		width: 81%;
 		column-count: 2;
-		margin-left: 19%;
-
+		margin-left: 18.3%;
 	}
-
+	.imgCard{
+		    margin: 10px 0px 3px 0px;
+	}
 	.footer {
 		position: relative;
 		padding-left: 20px;
@@ -1063,9 +1064,13 @@ a {
 	} */
 
 	.cardCont {
-		width: 75%;
+		width: 76%;
 		column-count: 2;
-		margin-left: 25%;
+		margin-left: 23.6%;
+	}
+
+	.imgCard {
+		margin: 8px 0px 1px 1px;
 	}
 
 	.footer {
@@ -1356,16 +1361,15 @@ a {
 		}
 
 		.cardCont {
-			width: 90%;
+			width: 89%;
 			column-count: 2;
-			margin-left: 7.8%;
-			/* padding-right: 3px; */
+			margin-left: 10.4%;
+
 		}
 
 		.imgCard {
-			/* max-height: 40%; */
 			width: 100%;
-			margin: 8px 0px 1px 6px;
+			margin: 8px 0px 1px 0px;
 			border-radius: 10px;
 		}
 
@@ -1428,7 +1432,7 @@ a {
 		.imgCard {
 			/* max-height: 40%; */
 			width: 99%;
-			margin: 8px 0px 1px 9.6px;
+			margin: 8px 0px 1px 0px;
 			border-radius: 10px;
 		}
 
@@ -1475,15 +1479,17 @@ a {
 			top: 0;
 		}
 
+
 		.cardCont {
-			width: 90%;
-			column-count: 1;
-			margin-left: 10%;
+			width: 88.3%;
+			column-count: 2;
+			margin-left: 11.3%;
+
 		}
 
 		.imgCard {
-			width: 96%;
-			margin: 8px 0px 1px 7.6px;
+			width: 100%;
+			margin: 7px 0px 1px 0px;
 			border-radius: 10px;
 		}
 
@@ -1524,6 +1530,14 @@ a {
 			font-size: 20px;
 		}
 
+	}
+
+	@media only screen and (max-width: 360px) {
+		.cardCont {
+			width: 86.3%;
+			column-count: 2;
+			margin-left: 12.3%;
+		}
 	}
 
 	@media only screen and (max-width: 320px) {
@@ -1574,9 +1588,15 @@ a {
 		}
 
 		.cardCont {
-			width: 85%;
-			column-count: 1;
+			width: 86.3%;
+			column-count: 2;
 			margin-left: 13%;
+		}
+
+		.imgCard {
+			width: 98%;
+			margin: 7px 0px 1px 1.6px;
+			border-radius: 10px;
 		}
 
 		.footer {
