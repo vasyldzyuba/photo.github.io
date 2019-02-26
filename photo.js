@@ -26,16 +26,24 @@ app.controller('photoCtrl', function (global, globalEmail) {
 		$(".imgCard").click(function () {
 			let img = $(this);
 			let src = img.attr('src');
-			$("body").append("<div class='popup'>" + "<div class='popup_bg'></div>" + "<img src='" + src + "' class='popup_img'/>" + "</div>");
+			$("body").append("<div class='popup'>" + "<div class='popup_bg'></div>" + "<img src='" + src + "' class='popup_img'/>" + "<img src='images/xIcon.png' class='xIcon'/>" + "</div>");
 			$(".popup").fadeIn(600);
-			//			$('body').css('overflow', 'hidden');
 			$(".popup_bg").click(function () {
 				$(".popup").fadeOut(600);
 				setTimeout(function () {
 					$(".popup").remove();
 				}, 600);
-				//				$('body').css('overflow', 'auto');
 			});
+			$(".xIcon").click(function () {
+				$(this).animate({
+					width: '5px'
+				}, 200);
+				$(".popup").fadeOut(600);
+				setTimeout(function () {
+					$(".popup").remove();
+				}, 600);
+			});
+
 		})
 
 		$('.go_to').click(function () {
@@ -91,7 +99,7 @@ app.controller('photoCtrl', function (global, globalEmail) {
 		$('.minimenu').click(function () {
 			//			$('.obg').css('display', 'block');
 			$('.titl').css('background-color', '#272631');
-//						$('body').css('overflow', 'hidden');
+			//						$('body').css('overflow', 'hidden');
 			$('.arrowLeft').animate({
 				left: '135px',
 				top: '8px'

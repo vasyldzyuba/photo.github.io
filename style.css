@@ -305,7 +305,7 @@ leftSide {
 .popup {
 	position: absolute;
 	z-index: 10000;
-	height: 670px;
+	height: 100vh;
 	width: 100%;
 	top: 0;
 	left: 0;
@@ -318,7 +318,7 @@ leftSide {
 	position: fixed;
 	background: rgba(0, 0, 0, 0.8);
 	z-index: 1;
-	height: 700px;
+	height: 100vh;
 	width: 100%;
 }
 
@@ -333,12 +333,25 @@ body.popup_img {
 	position: fixed;
 	z-index: 10;
 	max-height: 98%;
-	max-width: 91%;
+	max-width: 99%;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 }
 
+.xIcon {
+	position: fixed;
+	top: 1px;
+	z-index: 100;
+	right: 0;
+	width: 55px;
+}
+
+.xIcon:hover{
+	width: 65px;
+	transition: 0.3s;
+	cursor: pointer;
+}
 
 .login-box {
 	margin-top: 75px;
@@ -1318,240 +1331,240 @@ a {
 
 
 
-@media only screen and (max-width: 480px) {
-	.photoCont {
-		height: 190px;
-	}
-
-	.mainContainer {
-		position: fixed;
-		left: -100%;
-		z-index: 10000;
-		top: 0;
-	}
-
-	.arrowLeft {
-		position: fixed;
-		z-index: 10001;
-		left: -100%;
-		top: 8px;
-		width: 35px;
-		height: 35px;
-		background-image: url(images/arrow-left.png);
-		background-size: cover;
-		background-repeat: no-repeat;
-	}
-
-	.cardCont {
-		width: 88%;
-		column-count: 1;
-		margin-left: 10%;
-		padding-right: 3px;
-	}
-
-	.footer {
-		width: 100%;
-		margin-left: 40px;
-		padding-left: 38px;
-		height: 100vh;
-	}
-
-	.arrowBack {
-		z-index: 100;
-		position: relative;
-		left: 0;
-		top: 250px;
-		width: 80px;
-		height: 130px;
-	}
-
-	.footer .container .row .links {
+	@media only screen and (max-width: 480px) {
 		.photoCont {
 			height: 190px;
 		}
 
-		padding-block-start: 0px;
-		vertical-align: middle;
-		width: 100%;
-		min-width: 375px;
-		text-align: center;
-		padding-bottom: 20px;
+		.mainContainer {
+			position: fixed;
+			left: -100%;
+			z-index: 10000;
+			top: 0;
+		}
+
+		.arrowLeft {
+			position: fixed;
+			z-index: 10001;
+			left: -100%;
+			top: 8px;
+			width: 35px;
+			height: 35px;
+			background-image: url(images/arrow-left.png);
+			background-size: cover;
+			background-repeat: no-repeat;
+		}
+
+		.cardCont {
+			width: 88%;
+			column-count: 1;
+			margin-left: 10%;
+			padding-right: 3px;
+		}
+
+		.footer {
+			width: 100%;
+			margin-left: 40px;
+			padding-left: 38px;
+			height: 100vh;
+		}
+
+		.arrowBack {
+			z-index: 100;
+			position: relative;
+			left: 0;
+			top: 250px;
+			width: 80px;
+			height: 130px;
+		}
+
+		.footer .container .row .links {
+			.photoCont {
+				height: 190px;
+			}
+
+			padding-block-start: 0px;
+			vertical-align: middle;
+			width: 100%;
+			min-width: 375px;
+			text-align: center;
+			padding-bottom: 20px;
+		}
+
+		.arrowSlideLeft {
+			background-color: #d6d5df;
+			opacity: 0.1;
+			height: 100vh;
+			width: 50px;
+			top: 0;
+			position: absolute;
+			z-index: 1;
+		}
+
+		body {
+			overflow-x: hidden;
+		}
 	}
 
-	.arrowSlideLeft {
-		background-color: #d6d5df;
-		opacity: 0.1;
-		height: 100vh;
-		width: 50px;
-		top: 0;
-		position: absolute;
-		z-index: 1;
+	@media only screen and (max-width: 411px) {
+		.photoCont {
+			height: 190px;
+		}
+
+		.mainContainer {
+			position: fixed;
+			left: -100%;
+			z-index: 10000;
+			top: 0;
+		}
+
+		.arrowLeft {
+			position: fixed;
+			z-index: 10001;
+			left: -100%;
+			top: 8px;
+			width: 35px;
+			height: 35px;
+			background-image: url(images/arrow-left.png);
+			background-size: cover;
+			background-repeat: no-repeat;
+		}
+
+		.titl {
+			padding-left: 13%;
+			padding-top: 2px;
+			height: 40px;
+			width: 100%;
+			letter-spacing: 4px;
+			background-color: #292c2f;
+			font-size: 23px;
+		}
+
+		body {
+			overflow-x: hidden;
+		}
 	}
 
-	body {
-		overflow-x: hidden;
-	}
-}
+	@media only screen and (max-width: 375px) {
+		.photoCont {
+			height: 190px;
+		}
 
-@media only screen and (max-width: 411px) {
-	.photoCont {
-		height: 190px;
-	}
+		body {
+			overflow-x: hidden;
+		}
 
-	.mainContainer {
-		position: fixed;
-		left: -100%;
-		z-index: 10000;
-		top: 0;
-	}
+		.mainContainer {
+			position: fixed;
+			left: -100%;
+			z-index: 10000;
+			top: 0;
+		}
 
-	.arrowLeft {
-		position: fixed;
-		z-index: 10001;
-		left: -100%;
-		top: 8px;
-		width: 35px;
-		height: 35px;
-		background-image: url(images/arrow-left.png);
-		background-size: cover;
-		background-repeat: no-repeat;
-	}
+		.arrowLeft {
+			position: fixed;
+			z-index: 10001;
+			left: -100%;
+			top: 8px;
+			width: 35px;
+			height: 35px;
+			background-image: url(images/arrow-left.png);
+			background-size: cover;
+			background-repeat: no-repeat;
+		}
 
-	.titl {
-		padding-left: 13%;
-		padding-top: 2px;
-		height: 40px;
-		width: 100%;
-		letter-spacing: 4px;
-		background-color: #292c2f;
-		font-size: 23px;
-	}
+		.titl {
+			padding-left: 16%;
+			padding-top: 2px;
+			height: 40px;
+			width: 100%;
+			letter-spacing: 4px;
+			background-color: #292c2f;
+			font-size: 23px;
+		}
 
-	body {
-		overflow-x: hidden;
-	}
-}
+		.footer {
+			width: 100%;
+			margin-left: 40px;
+			height: 90vh;
+		}
 
-@media only screen and (max-width: 375px) {
-	.photoCont {
-		height: 190px;
-	}
+		.footer .container .row .links {
+			padding-block-start: 0px;
+			min-width: 322px;
+			width: 100%;
+			vertical-align: middle;
+			text-align: center;
+			font-size: 20px;
+		}
 
-	body {
-		overflow-x: hidden;
-	}
-
-	.mainContainer {
-		position: fixed;
-		left: -100%;
-		z-index: 10000;
-		top: 0;
 	}
 
-	.arrowLeft {
-		position: fixed;
-		z-index: 10001;
-		left: -100%;
-		top: 8px;
-		width: 35px;
-		height: 35px;
-		background-image: url(images/arrow-left.png);
-		background-size: cover;
-		background-repeat: no-repeat;
-	}
+	@media only screen and (max-width: 320px) {
+		.photoCont {
+			height: 190px;
+		}
 
-	.titl {
-		padding-left: 16%;
-		padding-top: 2px;
-		height: 40px;
-		width: 100%;
-		letter-spacing: 4px;
-		background-color: #292c2f;
-		font-size: 23px;
-	}
+		.mainContainer {
+			position: fixed;
+			left: -100%;
+			z-index: 10000;
+			top: 0;
+		}
 
-	.footer {
-		width: 100%;
-		margin-left: 40px;
-		height: 90vh;
-	}
+		.arrowLeft {
+			position: fixed;
+			z-index: 10001;
+			left: -100%;
+			top: 8px;
+			width: 35px;
+			height: 35px;
+			background-image: url(images/arrow-left.png);
+			background-size: cover;
+			background-repeat: no-repeat;
+		}
 
-	.footer .container .row .links {
-		padding-block-start: 0px;
-		min-width: 322px;
-		width: 100%;
-		vertical-align: middle;
-		text-align: center;
-		font-size: 20px;
-	}
+		.titl {
+			padding-left: 16%;
+			padding-top: 2px;
+			height: 40px;
+			width: 100%;
+			letter-spacing: 4px;
+			background-color: #292c2f;
+			font-size: 23px;
+		}
 
-}
+		.same {
+			font-size: 20px;
+			color: rgb(201, 195, 209);
+			letter-spacing: 2px;
+			font-family: 'Vollkorn', serif;
+			padding-top: 36px;
+		}
 
-@media only screen and (max-width: 320px) {
-	.photoCont {
-		height: 190px;
-	}
+		.aboutCont {
+			margin-top: 10px;
+			margin-left: 30px;
+		}
 
-	.mainContainer {
-		position: fixed;
-		left: -100%;
-		z-index: 10000;
-		top: 0;
-	}
+		.cardCont {
+			width: 85%;
+			column-count: 1;
+			margin-left: 13%;
+		}
 
-	.arrowLeft {
-		position: fixed;
-		z-index: 10001;
-		left: -100%;
-		top: 8px;
-		width: 35px;
-		height: 35px;
-		background-image: url(images/arrow-left.png);
-		background-size: cover;
-		background-repeat: no-repeat;
-	}
+		.footer {
+			height: 100vh;
+			width: 100%;
+			margin-left: 40px;
+		}
 
-	.titl {
-		padding-left: 16%;
-		padding-top: 2px;
-		height: 40px;
-		width: 100%;
-		letter-spacing: 4px;
-		background-color: #292c2f;
-		font-size: 23px;
+		.footer .container .row .links {
+			padding-block-start: 0px;
+			min-width: 263px;
+			width: 100%;
+			vertical-align: middle;
+			text-align: center;
+			font-size: 20px;
+		}
 	}
-
-	.same {
-		font-size: 20px;
-		color: rgb(201, 195, 209);
-		letter-spacing: 2px;
-		font-family: 'Vollkorn', serif;
-		padding-top: 36px;
-	}
-
-	.aboutCont {
-		margin-top: 10px;
-		margin-left: 30px;
-	}
-
-	.cardCont {
-		width: 85%;
-		column-count: 1;
-		margin-left: 13%;
-	}
-
-	.footer {
-		height: 100vh;
-		width: 100%;
-		margin-left: 40px;
-	}
-
-	.footer .container .row .links {
-		padding-block-start: 0px;
-		min-width: 263px;
-		width: 100%;
-		vertical-align: middle;
-		text-align: center;
-		font-size: 20px;
-	}
-}
