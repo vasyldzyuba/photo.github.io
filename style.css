@@ -341,13 +341,13 @@ body.popup_img {
 
 .xIcon {
 	position: fixed;
-	top: 13px;
+	top: 1px;
 	z-index: 100;
-	right: 2px;
+	right: 0;
 	width: 55px;
 }
 
-.xIcon:hover{
+.xIcon:hover {
 	width: 65px;
 	transition: 0.3s;
 	cursor: pointer;
@@ -1356,10 +1356,17 @@ a {
 		}
 
 		.cardCont {
-			width: 88%;
-			column-count: 1;
-			margin-left: 10%;
-			padding-right: 3px;
+			width: 90%;
+			column-count: 2;
+			margin-left: 7.8%;
+			/* padding-right: 3px; */
+		}
+
+		.imgCard {
+			/* max-height: 40%; */
+			width: 100%;
+			margin: 8px 0px 1px 6px;
+			border-radius: 10px;
 		}
 
 		.footer {
@@ -1418,6 +1425,13 @@ a {
 			top: 0;
 		}
 
+		.imgCard {
+			/* max-height: 40%; */
+			width: 99%;
+			margin: 8px 0px 1px 9.6px;
+			border-radius: 10px;
+		}
+
 		.arrowLeft {
 			position: fixed;
 			z-index: 10001;
@@ -1459,6 +1473,18 @@ a {
 			left: -100%;
 			z-index: 10000;
 			top: 0;
+		}
+
+		.cardCont {
+			width: 90%;
+			column-count: 1;
+			margin-left: 10%;
+		}
+
+		.imgCard {
+			width: 96%;
+			margin: 8px 0px 1px 7.6px;
+			border-radius: 10px;
 		}
 
 		.arrowLeft {
