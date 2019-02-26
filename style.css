@@ -341,9 +341,9 @@ body.popup_img {
 
 .xIcon {
 	position: fixed;
-	top: 9px;
+	top: 13px;
 	z-index: 100;
-	right: 5;
+	right: 5px;
 	width: 55px;
 }
 
